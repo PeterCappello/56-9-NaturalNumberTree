@@ -29,7 +29,8 @@ public class NaturalNumberTree
     
     private static boolean isPrime( int number )
     {
-        for ( int rank = 1; primes[ rank ] <= Math.sqrt( number ); rank++ )
+        final int limit = (int) Math.sqrt( number );
+        for ( int rank = 1; primes[ rank ] <= limit; rank++ )
         {
             if ( number % primes[ rank ] == 0 )
             {
