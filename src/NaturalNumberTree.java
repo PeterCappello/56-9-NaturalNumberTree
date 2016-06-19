@@ -89,5 +89,9 @@ public class NaturalNumberTree
         int naturalNumber = 399;
         NaturalNumberTree naturalNumberTree = new NaturalNumberTree( naturalNumber );
         System.out.println("\n naturalNumber: " + naturalNumber +  naturalNumberTree );
+        
+        naturalNumber = 1023;
+        naturalNumberTree = new NaturalNumberTree( naturalNumber );
+        System.out.println("\n naturalNumber: " + naturalNumber +  naturalNumberTree );
     }
 }
